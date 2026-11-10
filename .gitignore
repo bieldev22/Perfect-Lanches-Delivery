@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.delivery/
+.reference/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+portfolio/
