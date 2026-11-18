@@ -1,4 +1,4 @@
-#Perfect Lanches Delivery
+## Perfect Lanches Delivery
 
 Sistema de delivery para uma lanchonete, com cardápio digital, carrinho, checkout e painel para acompanhar pedidos. A demonstração local usa dados fictícios e permite simular a aprovação de um pagamento via Pix.
 
