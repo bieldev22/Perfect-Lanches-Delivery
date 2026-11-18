@@ -8,17 +8,21 @@ Desenvolvido com React, TypeScript, Node.js e SQLite. O servidor calcula o total
 
 Requisitos: **Node.js 24** e **pnpm 12**.
 
-```powershell
-cd E:\Projetos\Perfect_Lanches
+Abra o terminal na pasta onde você quer baixar o projeto e execute:
+
+```bash
+git clone https://github.com/bieldev22/Perfect-Lanches-Delivery.git
+cd Perfect-Lanches-Delivery
 pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-- Delivery: **http://127.0.0.1:4174/**
-- Cliente e histórico: **http://127.0.0.1:4174/conta**
-- Administração: **http://127.0.0.1:4174/admin**
+Com o servidor rodando, abra o [cardápio](http://127.0.0.1:4174/).
+  - Cliente e histórico: **http://127.0.0.1:4174/conta**
+  - Administração: **http://127.0.0.1:4174/admin**
 
-No painel, **Explorar demonstração local** abre a administração com pedidos e clientes fictícios. Esse acesso funciona somente no computador local e é desabilitado em produção. O Pix de demonstração não é uma cobrança bancária. Para testar o fluxo completo, finalize um pedido com dados fictícios e clique em **Simular pagamento aprovado**.
+A demonstração local usa dados fictícios e Pix simulado. Para testar o fluxo,
+finalize um pedido e clique em **Simular pagamento aprovado**.
 
 Sem arquivo de ambiente, o projeto inicia em demonstração local. Para personalizar a configuração:
 
