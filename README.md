@@ -18,8 +18,8 @@ pnpm dev
 ```
 
 Com o servidor rodando, abra o [cardápio](http://127.0.0.1:4174/).
-  - Cliente e histórico: **http://127.0.0.1:4174/conta**
-  - Administração: **http://127.0.0.1:4174/admin**
+  - Cliente e histórico: [clique aqui](http://127.0.0.1:4174/conta)
+  - Administração: [clique aqui](http://127.0.0.1:4174/admin)
 
 A demonstração local usa dados fictícios e Pix simulado. Para testar o fluxo,
 finalize um pedido e clique em **Simular pagamento aprovado**.
