@@ -1,11 +1,8 @@
-# Perfect Lanches
+#Perfect Lanches Delivery
 
-Delivery independente da Perfect Lanches, criado em `E:\Projetos\Perfect_Lanches`. O site da Império permanece em sua pasta original.
+Sistema de delivery para uma lanchonete, com cardápio digital, carrinho, checkout e painel para acompanhar pedidos. A demonstração local usa dados fictícios e permite simular a aprovação de um pagamento via Pix.
 
-Código público: [bieldev22/Perfect-Lanches-Delivery](https://github.com/bieldev22/Perfect-Lanches-Delivery).
-
-Ainda não há uma demonstração pública deste delivery validada. Veja as
-[condições de hospedagem](docs/PUBLICACAO.md) antes de configurar a publicação.
+Desenvolvido com React, TypeScript, Node.js e SQLite. O servidor calcula o total a partir dos preços cadastrados e registra o pedido para acompanhamento no painel.
 
 ## Iniciar
 
